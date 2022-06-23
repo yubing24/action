@@ -1,0 +1,26 @@
+# Python
+*.pyc
+venv/
+
+# Logging
+*.log
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Tests
+.coverage
+coverage/
+
+# IDE
+.idea/
+.code/
+.vscode/
+
+# Frontend
+node_modules/
+dist/
+
+# Mac specific
+.DS_Store

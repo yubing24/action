@@ -1,0 +1,15 @@
+* Action - Competition Management System
+
+** Developer
+
+*** Repository Bootstrap
+
+**** Create virtual environment
+Run =$ virtualenv venv= to initiate a virtual environment using =virtualenv=
+
+**** Activate virtual environment
+Run =$ source venv/local/bin/activate= to activate it in the current terminal session.
+
+**** Build Docker containers
+Run script =$ ./bin/build-images= to build Docker images, and run =$ docker-compose up= to
+start those containers as services. To find details about the docker container and orchestration, see the =docker/= directory for more details
